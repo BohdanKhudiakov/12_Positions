@@ -1,0 +1,34 @@
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  &__img {
+    margin-top: 20px;
+    &:hover {
+      transform: rotateX(70deg);
+      animation: one 1s infinite;
+      animation-direction: alternate;
+    }
+  }
+}
+
+@keyframes one {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(180deg);
+  }
+}
+
+.whosusing {
+  display: flex;
+  margin: 20px 20px;
+  &__text {
+    vertical-align: super;
+    padding-left: 20px;
+  }
+  .article__paragraph_line {
+    margin-top: 15px;
+  }
+}

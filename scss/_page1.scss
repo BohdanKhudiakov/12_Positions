@@ -1,0 +1,84 @@
+html {
+  background-color: #C9C9C9;
+}
+
+body {
+  color: black;
+  font: normal 400 36px/48px 'Roboto';
+  max-width: 1920px;
+  min-width: 375px;
+  margin: auto;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+.main1 {
+  display: flex;
+}
+
+.article {
+  padding-left: 38%;
+  padding-right: 24px;
+  margin: 40px 0px 0px 56px;
+  width: 60%;
+  background-image: url("../image/Frame.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  @media screen and (max-width: 1440px) {
+  background-position: 870px 200px;
+  }
+  @media screen and (max-width: 1200px) {
+    background-position: right bottom;
+  }
+  @media screen and (min-width: 1441px) {
+    background-position: right bottom;
+  }
+
+  &__title {
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    &_bold {
+      font-weight: 700;
+    }
+  }
+  &__paragraph {
+    &_italic {
+      font-style: italic;
+    }
+    &_underline {
+      text-decoration: underline;
+    }
+    &_sup {
+      vertical-align: super;
+      font-size: 20px;
+    }
+    &_line {
+      display: inline-block;
+      border: 8px solid black;
+      width: 80px;
+      height: 0px;
+    }
+    &_tag-text {
+      &:before{
+        content:"\003C";
+      }
+      &:after {
+        content: "\003E";
+      }
+    }
+  }
+}
+
+.section {
+  width: 38%;
+  position: fixed;
+  padding: 40px 20px 50px 20px;
+  a {
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+    p {
+      display: inline;
+    }
+  }
+}

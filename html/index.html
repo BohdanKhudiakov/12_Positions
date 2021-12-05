@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <header>
+        <section class="header">
+            <div class="header__lang">ENG</div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__list-item"><a href="index.html">Documentation /</a></li>
+                    <li class="header__list-item"><a href="page2.html">Who's using</a></li>
+                </ul>
+            </nav>
+            <div class="header__logo">
+                <a class="header__logo-link" href="#">
+                    <img src="../image/company-logo-black.svg" alt="logo" class="header__logo-img">
+                </a>
+            </div>
+        </section>
+    </header>
+    <main class="main1">
+        <section class="section">
+            <a href="#glava1" class="article__title article__title_bold" ><p><span class="article__paragraph_sup" >1</span> Introduction</p> </a>
+            <hr>
+            <a href="#glava2" class="article__title article__title_bold" ><p><span class="article__paragraph_sup" >2</span> Core Components</p> </a>
+            <hr>
+            <a href="#glava3" class="article__title article__title_bold" ><p><span class="article__paragraph_sup" >3</span> React Fundamentals</p> </a>
+            <hr>
+            <a href="#glava4" class="article__title article__title_bold" ><p><span class="article__paragraph_sup" >4</span> Handling Text Input</p> </a>
+        </section>
+        <article class="article">
+            <span class="article__paragraph_line" id="glava1"></span>
+            <p class="article__title article__title_bold" > Introduction</p>
+            <p class="article__paragraph">Welcome to the very start of your React Native journey! If you're looking for environment setup instructions, they've moved to <span class="article__paragraph_underline">their own section</span>. Continue reading for an introduction to the documentation, Native Components, React, and more!</p>
+            <span class="article__paragraph_line" id="glava2"></span>
+            <p class="article__title article__title_bold" > Core Components</p>
+            <p class="article__paragraph">React Native is an open source framework for building Android and iOS applications using React and the app platform’s native capabilities. With React Native, you use JavaScript to access your platform’s APIs as well as to describe the appearance and behavior of your UI using React components: bundles of reusable, nestable code. You can learn more about React in the next section. But first, let’s cover how components work in React Native.</p>
+            <span class="article__paragraph_line" id="glava3"></span>
+            <p class="article__title article__title_bold" > React Fundamentals</p>
+            <p class="article__paragraph">React Native runs on <span class="article__paragraph_underline">React</span>, a popular open source library for building user interfaces with JavaScript. To make the most of React Native, it helps to understand React itself. This section can get you started or can serve as a refresher course.</p>
+            <p class="article__paragraph">We’re going to cover the core concepts behind React:</p>
+            <p class="article__paragraph">+ components. The rest of this introduction to React uses cats in its examples: friendly, approachable creatures that need names and a cafe to work in.</p>
+            <p class="article__paragraph">+ JSX. React and React Native use JSX, a syntax that lets you write elements inside JavaScript like so: <span class="article__paragraph_tag-text">Text</span> Hello, I am your cat!<span class="article__paragraph_tag-text">/Text</span>. The React docs have <span class="article__paragraph_underline">a comprehensive guide to JSX</span> you can refer to learn even more. Because JSX is JavaScript, you can use variables inside it. Here you are declaring a name for the cat, name, and embedding it with curly braces inside <span class="article__paragraph_tag-text">Text</span>.</p>
+            <p class="article__paragraph">+ props. Props is short for “properties”.</p>
+            <p class="article__paragraph">+ state. While you can think of props as arguments you use to configure how components render, state is like a component’s personal data storage. State is useful for handling data that changes over time or that comes from user interaction. State gives your components memory!</p>
+            <span class="article__paragraph_line" id="glava4"></span>
+            <p class="article__title article__title_bold" > Handling Text Input</p>
+            <p class="article__paragraph">TextInput is a Core Component that allows the user to enter text. It has an onChangeText prop that takes a function to be called every time the text changed, and an onSubmitEditing prop that takes a function to be called when the text is submitted.</p>
+            <p class="article__paragraph">For example, let's say that as the user types, you're translating their words into a different language. In this new language, every single word is written the same way: 🍕. So the sentence "Hello there Bob" would be translated as "🍕 🍕".</p>
+        </article>
+    </main>
+</body>
+</html>

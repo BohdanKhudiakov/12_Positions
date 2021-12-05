@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 35px 0px 44px;
+  max-width: 1920px;
+  min-width: 780px;
+  &__lang {
+    height: 23px;
+    width: 41px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    transform: rotate(-0.15deg);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+    cursor: pointer;
+    margin-right: 41px;
+    margin-top: 26px;
+  }
+  &__nav {
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 7px;
+    margin-right: 715px;
+  }
+  &__list {
+    display: flex;
+    list-style: none;
+    &-item {
+      margin: 0px 5px;
+      flex-wrap: wrap;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  &__logo {
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+  }
+}
